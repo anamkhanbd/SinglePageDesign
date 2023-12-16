@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    user-select: none;
 }
 a{
     text-decoration: none;
@@ -16,4 +15,25 @@ a{
 /* hero-section */
 #hero-section{
     margin-left: 150px;
+}
+
+#hero-cover{
+    background-image: url(../images/cover-photo.jpg);
+    background-size: cover;
+    min-height: 500px;
+    background-repeat: no-repeat;
+}
+
+.cover-text{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.cover-text h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.cover-text h1 span{
+    font-size: 80px;
+    font-weight: bolder;
 }
